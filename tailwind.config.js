@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       animation: {
         tilt: 'tilt 10s infinite linear',
+        height: {
+          '128': '32rem',
+        }
       },
       keyframes: {
         tilt: {
